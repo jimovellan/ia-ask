@@ -1,10 +1,17 @@
 {
   "name": "ia-ask",
   "version": "1.0.0",
-  "description": "Chat de consola contra Ollama (gemma:2b)",
+  "description": "Chat de consola contra Ollama con herramientas",
   "type": "module",
   "bin": {
     "ia-ask": "bin/ia-ask.js"
+  },
+  "scripts": {
+    "instalar": "npm install -g ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimovellan/ia-ask.git"
   },
   "engines": {
     "node": ">=18"

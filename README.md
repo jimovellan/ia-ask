@@ -4,8 +4,16 @@ Chat de consola contra Ollama. Mantiene el historial de la conversación y, con 
 
 ## Instalar
 
+Directamente desde GitHub:
+
 ```sh
-npm install -g .
+npm install -g github:jimovellan/ia-ask
+```
+
+O desde una copia local del repo:
+
+```sh
+npm run instalar
 ```
 
 ## Usar
